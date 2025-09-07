@@ -1,0 +1,90 @@
+{
+  "categories": [
+    {
+      "id": "cspm",
+      "name": "CSPM Executive Dashboard",
+      "widgets": [
+        {
+          "id": "cloud-accounts",
+          "name": "Cloud Accounts",
+          "type": "chart",
+          "content": "Circular chart showing 2 Total accounts, with 1 Connected (blue) and 1 Not Connected (gray)."
+        },
+        {
+          "id": "cloud-risk",
+          "name": "Cloud Account Risk Assessment",
+          "type": "chart",
+          "content": "Donut/pie chart with numbers: Total: 9659 in center. Legend with statuses: Failed (388), Warning (60), Not Reachable (36), Passed (9231)."
+        }
+      ]
+    },
+    {
+      "id": "cwpp",
+      "name": "CWPP Dashboard",
+      "widgets": [
+        {
+          "id": "namespace-alerts",
+          "name": "Top 5 Namespace Specific Alerts",
+          "type": "chart",
+          "content": "Empty chart area with text: 'No Graph data available!'."
+        }
+      ]
+    },
+    {
+      "id": "registry",
+      "name": "Registry Scan",
+      "widgets": [
+        {
+          "id": "image-risk",
+          "name": "Image Risk Assessment",
+          "type": "chart",
+          "content": "Horizontal bar chart with total vulnerabilities = 1470. Legend breakdown: Critical (23), High (52), Medium (69)."
+        }
+      ]
+    }
+  ],
+  "availableWidgets": [
+    {
+      "id": "widget1",
+      "name": "Widget 1",
+      "category": "cspm",
+      "type": "chart",
+      "content": "Widget 1 content"
+    },
+    {
+      "id": "widget2",
+      "name": "Widget 2",
+      "category": "cspm",
+      "type": "chart",
+      "content": "Widget 2 content"
+    },
+    {
+      "id": "widget3",
+      "name": "Widget 3",
+      "category": "cwpp",
+      "type": "chart",
+      "content": "Widget 3 content"
+    },
+    {
+      "id": "widget4",
+      "name": "Widget 4",
+      "category": "cwpp",
+      "type": "chart",
+      "content": "Widget 4 content"
+    },
+    {
+      "id": "widget5",
+      "name": "Widget 5",
+      "category": "registry",
+      "type": "chart",
+      "content": "Widget 5 content"
+    },
+    {
+      "id": "widget6",
+      "name": "Widget 6",
+      "category": "registry",
+      "type": "chart",
+      "content": "Widget 6 content"
+    }
+  ]
+}
